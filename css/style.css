@@ -27,6 +27,53 @@ body {
     background-color: var(--bgColor);
 }
 
+h2 {
+    font-size: 2.4rem;
+}
+p {
+    font-size: 1.4rem;
+}
+
+.margin {
+    margin: 0;
+}
+
+/* Header */
 .logo {
     padding: 4rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width : 786px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+}
+.contenido {
+    padding: 3rem;
+}
+
+.contenido_resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 3rem;
+    background-color: var(--blanco);
+    height: 80vh;
+    border-radius: 3rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+
+    text-align: center;
+    color: var(--negro);
+}
+.contenido_resultado img{
+    max-width: 100%;
+    background-color: var(--blanco);
 }
