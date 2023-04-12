@@ -1,3 +1,15 @@
+/* Variables */
+:root {
+    --fuentePrincipal: 'Inter';
+
+    --bgColor: #F3F5FC;
+    --azul: #0A3871;
+    --gris: #D8DFE8;
+    --negro: #495057;
+    --blanco: #FFFFFF;
+
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;/* 1rem = 10px */
@@ -7,4 +19,14 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+/* Globales */
+body {
+    font-family: var(--fuentePrincipal);
+    background-color: var(--bgColor);
+}
+
+.logo {
+    padding: 4rem;
 }
