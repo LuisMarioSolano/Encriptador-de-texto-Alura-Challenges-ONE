@@ -8,27 +8,38 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
     <header class="logo">
-      <img src="img/Logo.png" alt="Logo Alura">
+      <img src="img/Logo.png" alt="Logo Alura" />
     </header>
-    <div class="contenedor">
+
+    <main class="contenedor">
       <section class="contenido contenido_original">
-        <textarea name="mensaje" id="mensaje" placeholder="Ingresa texto aquí"></textarea>
+        <textarea
+          name="mensaje"
+          id="mensaje"
+          placeholder="Ingresa texto aquí"
+        ></textarea>
         <div class="botones">
           <p>Solo letras minúsculas y sin acentos</p>
           <button class="botones boton-encriptar">Encriptar</button>
           <button class="botones boton-desencriptar">Desencriptar</button>
         </div>
       </section>
+
       <section class="contenido contenido_resultado">
-        <img class="imagen" src="img/Muñeco.png" alt="Buscando frase">
-        <h2>Ningún mensaje fue encontrado</h2>
-        <p class="margin">Ingresa el texto que desees encriptar o desencriptar</p>
+        <img class="imagen" src="img/Muñeco.png" alt="Buscando frase" />
+        <div>
+          <h2 class="alerta">Ningún mensaje fue encontrado</h2>
+          <p class="alerta">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
       </section>
-    </div>
+    </main>
   </body>
 </html>
