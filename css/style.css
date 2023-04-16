@@ -169,7 +169,7 @@ p {
     }
 }
 
-.mensajeResivido {
+.resultado {
     font-size: 2.4rem;
     color: var(--negro);
 }

@@ -21,7 +21,8 @@
 
     <main class="contenedor">
       <section class="contenido contenido_original">
-        <textarea class="textarea"
+        <textarea
+          class="textarea"
           name="mensaje"
           id="mensaje"
           placeholder="Ingresa texto aquí"
@@ -34,11 +35,12 @@
       </section>
 
       <section class="contenido contenido_resultado">
-        <img class="imagen" src="img/Muñeco.png" alt="Buscando frase" />
-        <div>
+        <div class="contenido_original">
+          <img class="imagen" src="img/Muñeco.png" alt="Buscando frase" />
           <h2 class="alerta">Ningún mensaje fue encontrado</h2>
           <p class="alerta">Ingresa el texto que desees encriptar o desencriptar</p>
         </div>
+        <p class="resultado"></p>
       </section>
     </main>
     <script src="js/app.js"></script>
